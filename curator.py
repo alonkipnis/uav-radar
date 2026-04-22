@@ -25,7 +25,7 @@ STATE_FILE = REPO_ROOT / ".curator_state.json"
 TOPICS = ["radar", "uav-detection", "tracking", "classification", "datasets", "other"]
 
 CLIENT = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-6"
 
 # ── State management (track which files have been processed) ─────────────────
 
@@ -216,7 +216,7 @@ def _write_topic_page(papers: list, topic: str):
         f"*{len(topic_papers)} entries — [← Back to Index](../index.md)*",
         "",
     ]
-    for p in sorted(topic_papers, key=lambda x: x.get("year", 0), reverse=True):
+    for p in sorted(topic_papers, key=lambda x: x.get("year") or 0, reverse=True):
         lines += [
             f"## {p['title']}",
             f"**{', '.join(p.get('authors', []))}** · {p.get('year', '?')} · {p.get('venue', '')}",
@@ -241,7 +241,7 @@ def _write_all_papers(papers: list):
         "| Title | Authors | Year | Topics | File |",
         "|-------|---------|------|--------|------|",
     ]
-    for p in sorted(papers, key=lambda x: x.get("year", 0), reverse=True):
+    for p in sorted(papers, key=lambda x: x.get("year") or 0, reverse=True):
         topics_str = ", ".join(p.get("topics", []))
         file_str = f"[PDF]({p['file']})" if p.get("file") else p.get("url", "—")
         authors_str = ", ".join(p.get("authors", []))
