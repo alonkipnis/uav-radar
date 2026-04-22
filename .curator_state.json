@@ -1,0 +1,17 @@
+{
+  "processed": {
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/DAIR_Radar_Device_And_Operation_Summary.pdf": "915715099889e98cd5628c18feb0242e",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/Estimating_Optimal_Tracking_Filter_Performance_for_Manned_Maneuvering_Targets_0c442e0167.pdf": "9896c56916c319ce975860622ece19d7",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/Forecasting Sequential Data Using Consistent Koopman Autoencoders.pdf": "5bc3ab5192b92032a87201dd1fe387ab",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/IEEE_Conference_Template (1).pdf": "0210aa7a5cd0650895e9ca73326b2ec8",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/Koopman Operator Theory for Nonlinear Dynamic Modeling using Dynamic Mode Decomposition.pdf": "1c2f9013e6f9cebacec6677f041afefb",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/Learning Koopman Invariant Subspaces for Dynamic Mode Decomposition.pdf": "92101ff767c3ced0375d2edad463c619",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/Millimeter_Wave_Radar_Measurements_Distinguishing_UAS_and_Birds_Based_on_60_GHz_micro-Doppler_Signatures.pdf": "d15591c9cae5ee4fee1f1f2fb0af0f19",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/SSF_Sweden_Taiwan_2025.pdf": "586247b92699b1dcf7496b941fd4ce33",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/Scalable_60_GHz_FMCW_Frequency-Division_Multiplexing_MIMO_Radar.pdf": "3425ae1b7c14244d4e7b6144fb635af1",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/Synthetic_Motion_Pretraining_Improves_Next_Step_UAV_Trajectory_Prediction_Across_Neural_Architectures.pdf": "f9efa5e8fbf02ae61079f8b8deb958ff",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/UAV classification with Mamba.pdf": "0970dd1e4531f2e508bb2505631b9b00",
+    "/home/runner/work/uav-radar/uav-radar/papers/raw/UAV_DISCRIMINATION_PAPER_20250514.pdf": "5ac6bf557d930091fe0793b34997acfd",
+    "/home/runner/work/uav-radar/uav-radar/notes/links.md": "3377543d89212a1d3e5a0dc06041c542"
+  }
+}
